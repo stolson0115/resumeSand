@@ -1,0 +1,22 @@
+<p>
+  <strong>Title:</strong>
+  <%= @project.title %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @project.category %>
+</p> 
+<p>
+  <strong>Text:</strong>
+  <%= @project.text %>
+</p>
+ 
+<h2>Comments</h2>
+<%= render @project.comments %>
+ 
+<h2>Add a comment:</h2>
+<%= render "comments/form" %>
+ 
+<%= link_to 'Edit project', edit_project_path(@project) %> |
+<%= link_to 'Back to projects', projects_path %>
