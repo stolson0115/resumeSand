@@ -1,3 +1,4 @@
+<div class="center hero-unit">
 <p>
   <strong>Title:</strong>
   <%= @project.title %>
@@ -11,7 +12,7 @@
   <strong>Text:</strong>
   <%= @project.text %>
 </p>
- 
+
 <h2>Comments</h2>
 <%= render @project.comments %>
  
@@ -20,3 +21,4 @@
  
 <%= link_to 'Edit project', edit_project_path(@project) %> |
 <%= link_to 'Back to projects', projects_path %>
+</div>
