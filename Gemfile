@@ -6,6 +6,9 @@ gem 'sqlite3'
 gem 'rspec-rails', '2.13.1'
 gem 'bootstrap-sass'
 gem 'sprockets'
+gem 'mail_form'
+gem 'simple_form'
+gem 'devise'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
