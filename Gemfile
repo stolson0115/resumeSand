@@ -9,7 +9,7 @@ group :development do
 end
 
 group :development, :test do
-gem 'foreman'
+	gem 'foreman'
 end
 gem 'bootstrap-sass', '3.1.1.0'
 gem 'sprockets', '2.11.0'
