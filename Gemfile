@@ -7,7 +7,7 @@ group :development do
 	gem 'sqlite3', '1.3.9'
 	gem 'rspec-rails', '2.13.1'
 end
-
+gem 'unicorn'
 group :development, :test do
 	gem 'foreman'
 end
