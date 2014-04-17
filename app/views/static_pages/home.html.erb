@@ -1,8 +1,11 @@
 <div class="center hero-unit">
 <h1>Seth Olson, B.S. Computer Engineering</h1>
 <h2>
-  Please view my previous and on-going work and feel free to leave a comment.
-  <br>
-  <%= link_to 'My Projects', controller: 'projects', class: "btn btn-large btn-primary" %>
+<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+  Resume
+</button>
+<div id="demo" class="collapse">								  
+<iframe src="/resume.pdf" style="width:718px; height:718px;" frameborder="0"></iframe>
+</div>
 </h2>
 </div>
