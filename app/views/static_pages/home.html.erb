@@ -1,11 +1,30 @@
 <div class="center hero-unit">
 <h1>Seth Olson, B.S. Computer Engineering</h1>
 <h2>
-<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
-  Resume
+<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#resumeCollapse">
+  ResumePdf
 </button>
-<div id="demo" class="collapse">								  
-<iframe src="/resume.pdf" style="width:718px; height:718px;" frameborder="0"></iframe>
+<button type="btn-dangerutton" class="btn btn-success" data-toggle="collapse" data-target="#brazil">
+  Brazil
+</button>
+<div id="resumeCollapse" class="collapse">								  
+<iframe src="/resume.pdf" style="width:718px; height:650px;" frameborder="0"></iframe>
+<br>
+<button type="button" class="btn btn-success" data-toggle="collapse" data-target="#resumeTxt">
+ResumeText
+</button>
+</div>
+<div id="resumeTxt" class="collapse">
+	<pre><%=render '/resume.txt' %></pre>
+</div>
+<div id="brazil" class="collapse">
+<p> These past several months in Brazil have been quite the experience. I am truly happy
+	to have spent time with my fiance Milena and am looking forward to coming back to the
+	US with her and to start a new job. 
+
+
+</p>
+
 </div>
 </h2>
 </div>

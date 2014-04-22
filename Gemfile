@@ -8,6 +8,7 @@ group :development do
 	gem 'rspec-rails', '2.13.1'
 end
 gem 'unicorn'
+gem 'bootstrap-addons-rails'
 group :development, :test do
 	gem 'foreman'
 end
