@@ -12,6 +12,7 @@ gem 'bootstrap-addons-rails'
 group :development, :test do
 	gem 'foreman'
 end
+gem 'tb_photos'
 gem 'bootstrap-sass', '3.1.1.0'
 gem 'sprockets', '2.11.0'
 gem 'mail_form', '1.5.0'
