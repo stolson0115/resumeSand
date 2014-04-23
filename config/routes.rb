@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :projects do
     resources :comments
   end
+  resources :images
   resources :contacts, only: [:new, :create]
   root 'static_pages#home'
   match '/about',   to: 'static_pages#about',   via: 'get'

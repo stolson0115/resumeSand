@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140422154035) do
+ActiveRecord::Schema.define(version: 20140422162935) do
 
   create_table "comments", force: true do |t|
     t.string   "commenter"
@@ -31,14 +31,14 @@ ActiveRecord::Schema.define(version: 20140422154035) do
     t.datetime "updated_at"
   end
 
-  create_table "spud_admin_permissions", force: true do |t|
-    t.integer  "user_id"
-    t.string   "name"
-    t.boolean  "access"
+  create_table "spud_permissions", force: true do |t|
+    t.string   "name",       null: false
+    t.string   "tag",        null: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "scope"
   end
+
+  add_index "spud_permissions", ["tag"], name: "index_spud_permissions_on_tag", unique: true
 
   create_table "spud_photo_albums", force: true do |t|
     t.string   "title"
@@ -52,7 +52,7 @@ ActiveRecord::Schema.define(version: 20140422154035) do
   create_table "spud_photo_albums_photos", force: true do |t|
     t.integer "spud_photo_album_id"
     t.integer "spud_photo_id"
-    t.integer "order",               default: 0
+    t.integer "sort_order",          default: 0
   end
 
   add_index "spud_photo_albums_photos", ["spud_photo_album_id"], name: "idx_album_id"
@@ -69,7 +69,7 @@ ActiveRecord::Schema.define(version: 20140422154035) do
   create_table "spud_photo_galleries_albums", force: true do |t|
     t.integer "spud_photo_gallery_id"
     t.integer "spud_photo_album_id"
-    t.integer "order",                 default: 0
+    t.integer "sort_order",            default: 0
   end
 
   add_index "spud_photo_galleries_albums", ["spud_photo_gallery_id"], name: "idx_gallery_id"
@@ -81,6 +81,22 @@ ActiveRecord::Schema.define(version: 20140422154035) do
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "spud_role_permissions", force: true do |t|
+    t.integer  "spud_role_id",        null: false
+    t.string   "spud_permission_tag", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "spud_role_permissions", ["spud_permission_tag"], name: "index_spud_role_permissions_on_spud_permission_tag"
+  add_index "spud_role_permissions", ["spud_role_id"], name: "index_spud_role_permissions_on_spud_role_id"
+
+  create_table "spud_roles", force: true do |t|
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -114,10 +130,12 @@ ActiveRecord::Schema.define(version: 20140422154035) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "time_zone"
+    t.integer  "spud_role_id"
   end
 
   add_index "spud_users", ["email"], name: "index_spud_users_on_email"
   add_index "spud_users", ["login"], name: "index_spud_users_on_login"
+  add_index "spud_users", ["spud_role_id"], name: "index_spud_users_on_spud_role_id"
 
   create_table "users", force: true do |t|
     t.string   "name"

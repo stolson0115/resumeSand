@@ -1,0 +1,7 @@
+<% @images.each do |image| %>
+	<% if image.include? "thumb" and  !image.include? "sad"%>
+	<%	$temp=image.slice!("app/assets/images/thumb_")%>
+	<% $thumb=$temp+image%>
+	<%= link_to image_tag("#{$thumb.split('/').last}"), image_url("#{image}")%>
+ <% end %>
+   <% end %>

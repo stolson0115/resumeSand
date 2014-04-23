@@ -7,10 +7,10 @@ group :development do
 	gem 'sqlite3', '1.3.9'
 	gem 'rspec-rails', '2.13.1'
 end
-gem 'unicorn'
+gem 'unicorn', '4.8.2'
 gem 'bootstrap-addons-rails'
 group :development, :test do
-	gem 'foreman'
+	gem 'foreman', '0.63.0'
 end
 gem 'bootstrap-sass', '3.1.1.0'
 gem 'sprockets', '2.11.0'
@@ -33,7 +33,7 @@ gem 'turbolinks', '2.2.2'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'devise'
+gem 'devise', '3.2.4'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 group :production do
