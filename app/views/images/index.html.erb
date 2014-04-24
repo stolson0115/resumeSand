@@ -1,7 +1,26 @@
-<% @images.each do |image| %>
-	<% if image.include? "thumb" and  !image.include? "sad"%>
-	<%	$temp=image.slice!("app/assets/images/thumb_")%>
-	<% $thumb=$temp+image%>
-	<%= link_to image_tag("#{$thumb.split('/').last}"), image_url("#{image}")%>
+<div class="span8 welcome-image">
+    <div id="myCarousel" class="carousel slide">
+    	<div class="carousel-inner">
+            <div class="active item">
+				<%= link_to image_tag("1st.jpg")%>
+                </div>
+                <% @images.each do |photos| %>
+        		<div class="item">
+          			<%= image_tag(photos[18..photos.length], :width=>"800", :height=>"600")%>
+        		</div>          
+    			<% end %>
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+	</div>
+<br>
+<% @thumbs.each do |thumb| %>
+    <% unless thumb.include?("sad") %>
+    <%= image_tag("#{thumb.split('/').last}")%>
  <% end %>
-   <% end %>
+<% end %>
+</div>
+
+

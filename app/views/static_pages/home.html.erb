@@ -1,32 +1,23 @@
 <h1>Seth Olson, B.S. Computer Engineering</h1>
-<h2>
-<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#resumeCollapse">
-  ResumePdf
-</button>
-<button type="btn-dangerutton" class="btn btn-success" data-toggle="collapse" data-target="#brazil">
-  Brazil
-</button>
-<div id="resumeCollapse" class="collapse">								  
-<iframe src="/resume.pdf" style="width:718px; height:650px;" frameborder="0"></iframe>
-<br>
-<button type="button" class="btn btn-success" data-toggle="collapse" data-target="#resumeTxt">
-ResumeText
-</button>
+<div class="center hero-unit">
+	<div class="accordion" id="myAccordion">
+		<div class="panel">
+		    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapsible-1" data-parent="#myAccordion">Resume Pdf</button>
+		    <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#collapsible-2" data-parent="#myAccordion">Resume Txt</button>
+		    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#collapsible-3" data-parent="#myAccordion">Brazil</button>
+			<div id="collapsible-1" class="collapse">
+			    <iframe src="/resume.pdf" style="width:718px; height:650px;" frameborder="0"></iframe>
+			</div>
+			<div id="collapsible-2" class="collapse">
+			    <pre><%=render '/resume.txt' %></pre>
+			</div> 
+		    <div id="collapsible-3" class="collapse">
+			    <p> <b>These past several months in Brazil have been quite the experience. I am truly happy
+				to have spent time with my fiance Milena and am looking forward to coming back to the
+				US with her and to start a new job.</p></b>
+				<%= render 'layouts/carHome' %>
+				<a href="images" class="btn btn-info" role="button"><b>Full Gallery</b></a>
+		    </div>
+		</div>
+	</div>
 </div>
-<div id="resumeTxt" class="collapse">
-	<pre><%=render '/resume.txt' %></pre>
-</div>
-<div id="brazil" class="collapse">
-<p> <b>These past several months in Brazil have been quite the experience. I am truly happy
-	to have spent time with my fiance Milena and am looking forward to coming back to the
-	US with her and to start a new job. 
-</p></b>
-<%= link_to image_tag("thumb_20140207_145851.jpg"), image_url("20140207_145851.jpg") %>
-<%= link_to image_tag("thumb_20140207_154937.jpg"), image_url("20140207_154937.jpg") %>
-<%= link_to image_tag("thumb_20140208_114714.jpg"), image_url("20140208_114714.jpg") %>
-<br>
-<br>
-<a href="images" class="btn btn-info" role="button"><b>Full Gallery</b></a>
-</div>
-</h2>
-
