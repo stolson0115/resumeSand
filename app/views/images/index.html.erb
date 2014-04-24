@@ -18,7 +18,10 @@
 <br>
 <% @thumbs.each do |thumb| %>
     <% unless thumb.include?("sad") %>
-    <%= image_tag("#{thumb.split('/').last}")%>
+    <% @tmp=thumb.slice!("app/assets/images/thumb_")%>
+    <%= link_to image_tag("thumb_#{thumb.split('/').last}"), image_path("#{thumb}")%>
  <% end %>
 <% end %>
-<br><br>
+</div>
+
+
