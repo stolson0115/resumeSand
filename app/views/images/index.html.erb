@@ -1,27 +1,42 @@
-<div class="span8 welcome-image">
-    <div id="myCarousel" class="carousel slide">
-    	<div class="carousel-inner">
-            <div class="active item">
-				<%= link_to image_tag("1st.jpg")%>
+<div id="myCarousel" class="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <% (1..$ind).each do |i| %>
+            <li data-target="#myCarousel" data-slide-to="<%=i%>"></li>
+        <% end %>
+    </ol>
+    <div class="carousel-inner">
+         <div class="item active">
+			<%= link_to image_tag("p_1st.jpg")%>
+             <div class="container">
+                <div class="carousel-caption">
                 </div>
-                <% @images.each do |photos| %>
-        		<div class="item">
-          			<%= image_tag(photos[18..photos.length], :width=>"800", :height=>"600")%>
-        		</div>          
-    			<% end %>
             </div>
-            <!-- Carousel nav -->
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
         </div>
-	</div>
+        <% @images.each do |photos| %>
+        <% if !photos.include?("p_1st.jpg") %>
+            <div class="item">
+                <%= image_tag(photos[18..photos.length])%>
+                <div class="container">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div> 
+        <% end %>         
+    	<% end %>
+    </div>
+    <!-- Carousel nav -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>  
+</div>
+
 <br>
 <% @thumbs.each do |thumb| %>
     <% unless thumb.include?("sad") %>
     <% @tmp=thumb.slice!("app/assets/images/thumb_")%>
     <%= link_to image_tag("thumb_#{thumb.split('/').last}"), image_path("#{thumb}")%>
- <% end %>
-<% end %>
-<br><br>
+    <% end %>
+    <% end %>
+    <br><br>
 
 
