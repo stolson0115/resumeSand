@@ -9,14 +9,21 @@
 </p> 
 <p>
   <strong>Text:</strong>
+  <br>
+  <pre>
   <%= @project.text %>
+  </pre>
 </p>
-
-<h2>Comments</h2>
-<%= render @project.comments %>
- 
-<h2>Add a comment:</h2>
-<%= render "comments/form" %>
- 
+<div class="row">
+		<h2>Comments</h2>
+		<%= render @project.comments %>
+	<div class ="col-md-6 col-md-offset-3 table-bordered">
+		<h2>Add a comment:</h2>
+		<%= render "comments/form" %>
+ 	</div>
+</div>
+<br>
 <%= link_to 'Edit project', edit_project_path(@project) %> |
 <%= link_to 'Back to projects', projects_path %>
+<br>
+<br>
