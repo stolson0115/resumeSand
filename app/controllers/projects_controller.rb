@@ -43,6 +43,6 @@ end
 
 private
 	def project_params
-		params.require(:project).permit(:title, :category, :text)
+		params.require(:project).permit(:title, :category, :text, :avatar)
 	end
 end
