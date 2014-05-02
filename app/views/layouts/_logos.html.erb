@@ -1,11 +1,8 @@
-<h3>Tech</h3>
-<div class="row" style="outline: 3px solid orange;">
 <% @logos=Dir.glob("app/assets/images/logos/*.png") %>
 <% @logos.each do |l| %>
     <% @tmp=l.slice!("app/assets/images/")%>
 <%= image_tag("#{l}",  title:"#{l}") %>
 <% end %>
-</div>
 
 
 
