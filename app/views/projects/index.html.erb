@@ -23,7 +23,7 @@
     <% else %>
     <tr>
       <td><%= index+1 %></td>
-      <td><%= project.title %></td>
+      <td><%= link_to project.title, project_path(project)%></td>
       <td><%= project.category %></td>
       <td><%= link_to 'Show', project_path(project)%></td>
       <td><%= link_to 'Edit', edit_project_path(project) %></td>
