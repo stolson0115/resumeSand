@@ -218,7 +218,6 @@ display: block;
     overflow-y:auto;
     overflow-x:auto;
     border-radius: 0px;
-
 }
 
 .carousel{
@@ -233,4 +232,16 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
+}
+
+.embed-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+}
+.content {
+    width: 50%;
+    margin: 0px auto;
 }
