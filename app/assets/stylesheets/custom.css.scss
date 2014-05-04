@@ -213,8 +213,8 @@ display: block;
     position: absolute;
     left: 5%;
     right: 5%;
-    height: 800px;
-    width: 800px;
+    height: 75%;
+    width: 75%;
     overflow-y:auto;
     overflow-x:auto;
     border-radius: 0px;
@@ -222,9 +222,8 @@ display: block;
 }
 
 .carousel{
-  width: 800px;
-  overflow-x:auto;
-  left: 10%;
+max-width: 75%;
+  left: 15%;
 }
 
 img {
