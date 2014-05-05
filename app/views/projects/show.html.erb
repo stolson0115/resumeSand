@@ -13,13 +13,22 @@
   <%= link_to "Download File(s)", @project.avatar_url if @project.avatar? %>
   <br>
   <!--?prettify lang=html linenums=true?-->
-<pre class="prettyprint" style="border:4px solid #88c">
-  <%= @project.text %>
+<% if @project.category.include?("Url")%>
+  <%= link_to "#{@project.text}"%>
+  <div class="embed-container">
+    <object data="http://centerforgreatergood.com/" width="100%" height="100%">
+      <p>Your web browser doesn't support Iframes, please click the link aboev to see the site.>click here to ownload the PDF file.</a></p>
+        <embed src="http://centerforgreatergood.com/">
+    </object>
+  </div>
+<% else %>
+  <pre class="prettyprint" style="border:4px solid #88c">
+    <%= @project.text %>
   </pre>
-</p>
+<% end %>
 <% if @project.category.include?("Javascript")%>
-<h1> Example </h1>
-<%= @project.text.html_safe %>
+  <h1> Example </h1>
+  <%= @project.text.html_safe %>
 <% end %>
 <div class="row">
 		<h2>Comments</h2>

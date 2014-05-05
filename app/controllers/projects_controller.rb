@@ -41,6 +41,10 @@ def destroy
 	redirect_to projects_path
 end
 
+def sort
+
+end
+
 private
 	def project_params
 		params.require(:project).permit(:title, :category, :text, :avatar)
