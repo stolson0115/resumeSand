@@ -17,6 +17,10 @@
   <%= @project.text %>
   </pre>
 </p>
+<% if @project.category.include?("Javascript")%>
+<h1> Example </h1>
+<%= @project.text.html_safe %>
+<% end %>
 <div class="row">
 		<h2>Comments</h2>
 		<%= render @project.comments %>
