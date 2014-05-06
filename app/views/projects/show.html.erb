@@ -13,10 +13,18 @@
   <%= link_to "Download File(s)", @project.avatar_url if @project.avatar? %>
   <br>
   <!--?prettify lang=html linenums=true?-->
+<% if @project.category.include?("Url") %>
+    <a href="http://<%= @project.text.to_s %>">Visit Website</a>
+    <p>Or if your browser supports iframes, view below:</p>
+    <div class="embed-container">
+    <iframe src="http://<%= @project.text.to_s %>" width="100%" height="100%"></iframe>
+    </div>
+    <% else %>
 <pre class="prettyprint" style="border:4px solid #88c">
   <%= @project.text %>
   </pre>
 </p>
+<% end %>
 <% if @project.category.include?("Javascript")%>
 <h1> Example </h1>
 <%= @project.text.html_safe %>

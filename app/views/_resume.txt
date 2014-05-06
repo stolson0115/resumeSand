@@ -1,55 +1,37 @@
+431 Klein Ave, Vallejo CA							www.sethmile.com	
+415 827-2515									sethtfo@gmail.com
 Seth Olson
-
-415-827-2515
-sethtfo@gmail.com
-
-431 Klein Ave,
-Vallejo, CA, 94592
-
 Skills
-	Software Programming: Coursework in Java, C/C++ and Matlab.
-	Other Programming: Verilog HDL for FPGA, Assembly Atmel 16, Microcontrollers
-	Teamwork / Projects:
-		o Team lead for FPGA based Cryptography Processor
-		o Six-axis Motion controller for PC using Atmel 16 STK200,
-		o Senior Project working on a Biomedical Wireless Sensor Network using Bluetooth
-			cc2560 with TI MSP430 MCU to pair with iPhone and cloud server.
-	Excellent Communication and Organizational Skills
-	Software: Matlab, Xilinx ISE, AVR Studios, Netbeans, Vim, Eclipse, android SDK, Excel,
-	MS Office, Wireshark, Putty, SSH, P Spice, Eagle CAD design.
+Experience with: Java, C, C++, Ruby on Rails, HTML5, CSS3, Bootstrap
+Other Programming: Rspec using Capyraba, Javascript, basic objective-c, MySQL, Assembly Atmel 16, Verilog HDL
+Excellent Communication and Organizational Skills
+Software: Matlab, Xilinx ISE, AVR Studios, Netbeans, Vim, Eclipse, android SDK, Excel, MS Office, Wireshark, Putty, SSH, P Spice, Eagle CAD design, Xcode
 
 Education
-	San Francisco State University Fall 2011- (Fall 2013) expected
-		BS in Computer Engineering
-		ACM
+San Francisco State University Fall 2011- (Fall 2013)
+BS in Computer Engineering
+ACM
+City College of San Francisco 2008-2010
+General Education
 
-	City College of San Francisco 2008-2010
-		General Education
 
 Experience
-	Center for the Greater Good, http://centerforgreatergood.com/,
-	2010-2011
+Center for the Greater Good, http://centerforgreatergood.com/,	2010-2013
+Lead R&D for the Good life Guidebook for Impact Measurement  http://www.scribd.com/doc/82495812/Good-Life-Guidebook-for-Impact-Measurement Worked with a team of three people for extended period of time.
+My research helped secure $135 million for Low Income Housing Community
+http://www.forbes.com/sites/gcaptain/2012/03/21/financing-the-greater-good/
+To accomplish their goal, CGG has identified over 100 interventions with proven outcomes to overcoming poverty and, through evidence-based practice, has moved CGG to secure funding for an innovative impact measurement system that, in collaboration with the nation’s largest foundations, is built to monitor and evaluate supportive community programs.
+Custom SharePoint Development tailored for Company’s needs.
+Team Development, Scaling small-sized business to mid-sized business.
 
-	Lead R&D for the Good life Guidebook for Impact Measurement
-		http://www.scribd.com/doc/82495812/Good-Life-Guidebook-for-Impact-Measurement
 
-		Worked with a team of three people for extended period of time.
-		My research helped secure $135 million for Low Income Housing Community
-		http://www.forbes.com/sites/gcaptain/2012/03/21/financing-the-greater-good/
-		To accomplish their goal, CGG has identified over 100 interventions with proven outcomes
-		to overcoming poverty and, through evidence-based practice, has moved CGG to secure
-		funding for an innovative impact measurement system that, in collaboration with the nation’s
-		largest foundations, is built to monitor and evaluate supportive community programs.
-		Custom SharePoint Development tailored for Company’s needs.
-		Team Development, Scaling small-sized business to mid-sized business.
 
-	CPA Valet
-	2008-2011
+CPA Valet	2008-2011
+Event Manager: Duties included training new employees, managing money, supervising teams from two to ten to achieve smooth and efficient operations for customer satisfaction.
 
-	Event Manager: Duties included training new employees, managing money, supervising
-	teams from two to ten to achieve smooth and efficient operations for customer satisfaction.
 
-References available upon request
-	John Belluomini, CEO and Founder of Center for the Greater Good
-	Larry Kesslin, CEO and Founder, of http://www.4-profit.com/
-	Greg Werkheiser, Founding Partner, Cultural Heritage Partners, PLLC
+References
+Excellent references available upon request.
+John Belluomini, CEO and Founder of Center for the Greater Good
+Larry Kesslin, CEO and Founder, of http://www.4-profit.com/
+Greg Werkheiser, Founding Partner, Cultural Heritage Partners, PLLC
