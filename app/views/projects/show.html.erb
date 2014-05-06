@@ -14,7 +14,7 @@
   <br>
   <!--?prettify lang=html linenums=true?-->
 <% if @project.category.include?("Url") %>
-    <a href="http://<%= @project.text.to_s %>">Visit Website</a>
+    <a href="<%= @project.text.to_s %>">Visit Website</a>
     <p>Or if your browser supports iframes, view below:</p>
     <div class="embed-container">
     <iframe src="http://<%= @project.text.to_s %>" width="100%" height="100%"></iframe>
