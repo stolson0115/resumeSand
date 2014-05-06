@@ -2,13 +2,13 @@
 415 827-2515									sethtfo@gmail.com
 Seth Olson
 Skills
-Experience with: Java, C, C++, Ruby on Rails, HTML5, CSS3, Bootstrap
-Other Programming: Rspec using Capyraba, Javascript, basic objective-c, MySQL, Assembly Atmel 16, Verilog HDL
+Strong Experience with: Java, C, C++
+Other Programming: Ruby on Rails, HTML5, CSS3, Bootstrap, Rspec using Capyraba, Javascript, basic objective-c, MySQL, Assembly Atmel 16, Verilog HDL
 Excellent Communication and Organizational Skills
 Software: Matlab, Xilinx ISE, AVR Studios, Netbeans, Vim, Eclipse, android SDK, Excel, MS Office, Wireshark, Putty, SSH, P Spice, Eagle CAD design, Xcode
 
 Education
-San Francisco State University Fall 2011- (Fall 2013)
+San Francisco State University Graduated January 2014
 BS in Computer Engineering
 ACM
 City College of San Francisco 2008-2010
