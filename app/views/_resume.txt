@@ -41,8 +41,7 @@ May 2013, to December 2013
 -Lead a team of three interns to design and develop
 www.centerforgreatergood.com, and http://institute.presidio.gov.
 -Managed a Salesforce Database of over 5000 company contacts, trained
-new employees and created software tutorials for working with company
-tools.
+new employees and created software tutorials for working with company.
 -Worked on Business Scoping and Analysis of stakeholders and value
 propositions for the Presidio Institute with C-Suite Executives.
 LEAD R&D, CENTER FOR THE GREATER GOOD
@@ -62,9 +61,9 @@ project.
 http://www.forbes.com/sites/gcaptain/2012/03/21/financing-the-greatergood
 http://www.hawaiinewsnow.com/story/22589032/kuhio-park-terracerenamed-and-renovated
 
-EDUCATION
+EDUCATION
 
-SAN FRANCISCO STATE UNIVERSITY, B.S. COMPUTER ENGINEERING
+SF STATE UNIVERSITY, B.S. COMPUTER ENGINEERING 2013
 Coursework in both Electrical Engineering, and Computer Science. Worked
 on a low power wireless heart rate monitor biomedical device for senior
 project using blue-tooth cc2560 to pair with iPhone app and cloud service.
@@ -78,3 +77,6 @@ www.linkedin.com/pub/greg-werkheiser/2a/b84/284
 -Akif Malik, CEO Sports Colab, Partner at RXA Ventures, Abrix and Founder
 of Olympic Bid, www.linkedin.com/in/akifmalik
 
+Page 2
+
+
