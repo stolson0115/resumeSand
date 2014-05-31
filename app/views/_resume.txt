@@ -7,66 +7,77 @@ seth@sethmile.com
 SETH OLSON
 OBJECTIVE
 
-SKILLS &
-ABILITIES
+Seeking an excellent company to enhance my skills on
+developing efficient, user friendly and wildly successful
+creative applications. To contribute to a brilliant technical
+team, help create new opportunities, and to work in a
+healthy environment.
+
+ACCOMPLISHMENTS
+SKILLS & ABILITIES
 
 EXPERIENCE
 
-Seeking an excellent company to enhance my skills on
-creating efficient, user friendly and creative applications. To
-learn working in a technical team full of new opportunities
-and healthy discussions.
-Languages
+Proficient Languages
 
-Knowledge Of
+Practiced in
 
--HTML5/CSS3
+C
 
--Ruby on Rails
+Ruby on Rails
 
--C/C++
+C++
 
--Web Development
+Web Development
 
--Java
+Java
 
--MVC Design
+MVC Design
 
--MySql
+HTML5/CSS3
 
--Operating Systems
+Operating Systems
 
-PROJECT MANAGER / DEVELOPER AT CENTER FOR GREATER GOOD
-May 2013, to December 2013
--Lead a team of three interns to design and develop
+CENTER FOR GREATER GOOD,
+
+MAY 2013, TO DECEMBER 2013
+
+Project Manager / Developer
+-Lead a team of three people to design and develop
 www.centerforgreatergood.com, and http://institute.presidio.gov.
--Managed a Salesforce Database of over 5000 company contacts, trained
-new employees and created software tutorials for working with company.
+-Worked with senior management to design a Salesforce Database with
+over 5000 company contacts, trained new employees and created
+software tutorials for working with company.
 -Worked on Business Scoping and Analysis of stakeholders and value
 propositions for the Presidio Institute with C-Suite Executives.
-LEAD R&D, CENTER FOR THE GREATER GOOD
-2010-2013 April Part time-school semester, full time-summer
--Researched funding leads on a continual basis, supplemental information
-for implementation of client projects regarding policies, health, low income
-housing, and social services. Created measurable outcomes combining
-aforementioned research from scientific journals which led to the
-publication of The Good Life Guidebook for Impact Measurement found at
+CENTER FOR THE GREATER GOOD,
+
+MAY 2010, TO APRIL 2013
+
+Co-Lead R&D Part time - school semester, full time - summer
+-Researched funding leads on a continual basis to provide supplemental
+information for implementation of client projects regarding policies,
+health, low income housing, and social services. Created measurable
+outcomes combining aforementioned research from scientific journals
+which led to the publication of The Good Life Guidebook for Impact
+Measurement found at
 http://www.slideshare.net/CenterforGreaterGood/good-life-guidebook-bycenter-for-the-greater-good
+
 -My research and publication helped secure $135 million dollars from top
-donors such as Google, Aegon, Vitus Group, and Michaels developers which
-we brought together through many meetings and a solid plan, to redevelop
-the Hawaii Kuhlo Par Terrace. My boss and I were flown down to Hawaii and
-congratulated by the governor; a Forbes article was written about the
-project.
-http://www.forbes.com/sites/gcaptain/2012/03/21/financing-the-greatergood
+investors such as Google, Aegon, Vitus Group, and Michaels developers
+which we brought together through many meetings and a solid plan, to
+redevelop the Hawaii Kuhlo Par Terrace.
+
+http://www.forbes.com/sites/gcaptain/2012/03/21/financing-the-greatergood
 http://www.hawaiinewsnow.com/story/22589032/kuhio-park-terracerenamed-and-renovated
 
-EDUCATION
+EDUCATION
 
-SF STATE UNIVERSITY, B.S. COMPUTER ENGINEERING 2013
-Coursework in both Electrical Engineering, and Computer Science. Worked
-on a low power wireless heart rate monitor biomedical device for senior
-project using blue-tooth cc2560 to pair with iPhone app and cloud service.
+SF STATE UNIVERSITY, B.S. COMPUTER ENGINEERING, JAN 2014
+Coursework in both Electrical Engineering, and Computer Science.
+Worked on a low power wireless heart rate monitor biomedical device for
+senior project using blue-tooth cc2560 to pair with iPhone app and cloud
+service.
 
 REFERENCES
 
