@@ -9,14 +9,12 @@ OBJECTIVE
 
 Seeking an excellent company to enhance my skills on
 developing efficient, user friendly and wildly successful
-creative applications. To contribute to a brilliant technical
-team, help create new opportunities, and to work in a
-healthy environment.
+creative applications. I would also like to contribute to a
+brilliant technical team, help create new opportunities, and
+to work in a healthy environment.
 
 ACCOMPLISHMENTS
 SKILLS & ABILITIES
-
-EXPERIENCE
 
 Proficient Languages
 
@@ -33,12 +31,11 @@ Web Development
 Java
 
 MVC Design
-
-HTML5/CSS3
-
 Operating Systems
 
-CENTER FOR GREATER GOOD,
+EXPERIENCE
+
+CENTER FOR GREATER GOOD
 
 MAY 2013, TO DECEMBER 2013
 
@@ -47,7 +44,7 @@ Project Manager / Developer
 www.centerforgreatergood.com, and http://institute.presidio.gov.
 -Worked with senior management to design a Salesforce Database with
 over 5000 company contacts, trained new employees and created
-software tutorials for working with company.
+software tutorials.
 -Worked on Business Scoping and Analysis of stakeholders and value
 propositions for the Presidio Institute with C-Suite Executives.
 CENTER FOR THE GREATER GOOD,
@@ -62,7 +59,6 @@ outcomes combining aforementioned research from scientific journals
 which led to the publication of The Good Life Guidebook for Impact
 Measurement found at
 http://www.slideshare.net/CenterforGreaterGood/good-life-guidebook-bycenter-for-the-greater-good
-
 -My research and publication helped secure $135 million dollars from top
 investors such as Google, Aegon, Vitus Group, and Michaels developers
 which we brought together through many meetings and a solid plan, to
@@ -78,6 +74,7 @@ Coursework in both Electrical Engineering, and Computer Science.
 Worked on a low power wireless heart rate monitor biomedical device for
 senior project using blue-tooth cc2560 to pair with iPhone app and cloud
 service.
+http://thinhjb.com/bluetooth/
 
 REFERENCES
 
