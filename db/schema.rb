@@ -23,27 +23,13 @@ ActiveRecord::Schema.define(version: 20140429184249) do
 
   add_index "comments", ["project_id"], name: "index_comments_on_project_id"
 
-  create_table "documents", force: true do |t|
-    t.text     "description"
-    t.string   "category"
-    t.string   "fileType"
-    t.integer  "project_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "documents", ["project_id"], name: "index_documents_on_project_id"
-
   create_table "projects", force: true do |t|
     t.string   "title"
     t.string   "category"
     t.text     "text"
-    t.string   "file_file_name"
-    t.string   "file_content_type"
-    t.integer  "file_file_size"
-    t.datetime "file_updated_at"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "avatar"
   end
+
 end
