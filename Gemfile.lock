@@ -60,7 +60,7 @@ GEM
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
     erubis (2.7.0)
-    excon (0.37.0)
+    excon (0.76.0)
     execjs (2.2.0)
     figaro (0.7.0)
       bundler (~> 1.0)
