@@ -49,6 +49,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    concurrent-ruby (1.1.9)
     devise (3.2.4)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -88,7 +89,8 @@ GEM
       thor (>= 0.13.6)
     formatador (0.2.5)
     hike (1.2.3)
-    i18n (0.6.9)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     ipaddress (0.8.0)
     jbuilder (2.1.0)
       activesupport (>= 3.0.0, < 5)
